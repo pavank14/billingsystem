@@ -1,0 +1,298 @@
+/* Common styles */
+.invoice-container, .bill-container {
+  margin: 20px auto;
+  width: 210mm;
+  padding: 20px;
+  border: 1px solid #ccc;
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+}
+
+.custom-label1 {
+  display: inline-block;
+  width: 100px;
+  margin-left: 12px;
+  margin-bottom: 8px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.invoice-header,
+.bill-header {
+  display: flex;
+  align-items: center;
+}
+.invoice-logo, .bill-logo {
+  width: 105px;
+  margin-top: 69px;
+  margin-right: 100px;
+}
+
+.invoice-header input[type='date'], .bill-header input[type='date'] {
+  margin-top: 0px;
+  margin-left:426px;
+}
+
+.heading {
+  margin-left: -74px;
+  font-size: medium;
+}
+.invoice-logo, .bill-logo {
+  width: 118px;
+  margin-top: 11px;
+  margin-right: 90px;
+}
+
+.custom-label {
+  display: inline-block;
+  width: 100px;
+  margin-left: 12px;
+  margin-bottom: 8px;
+  margin-top: 10px;
+  font-size:large
+}
+
+.custom-input1, .custom-input3 {
+  width: 187px;
+  height:25px;
+  font-size:large;
+  border: 2px solid #000;
+
+}
+
+.light-bill-fields {
+  margin-top: 20px;
+}
+
+.light-bill-fields label {
+  margin-right: 10px;
+}
+
+.total-units {
+  margin-top: 10px;
+}
+
+.custom-input {
+  width: 30px;
+  height: 11px;
+  padding: 3px;
+}
+
+.invoice-items,
+.bill-items {
+  margin-bottom: 20px;
+}
+
+.invoice-items table,
+.bill-items table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.invoice-items th,
+.invoice-items td,
+.bill-items th,
+.bill-items td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.invoice-items th:first-child,
+.invoice-items td:first-child,
+.bill-items th:first-child,
+.bill-items td:first-child {
+  width: 10%; /* Adjust width for Item No. */
+}
+.invoice-extras {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.invoice-extras table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.invoice-extras td {
+  padding: 10px;
+  vertical-align: middle;
+}
+
+.invoice-extras label {
+  font-size: 18px;
+  
+}
+
+.invoice-extras input[type="number"] {
+  width: 150px;
+  padding: 0px;
+  font-size: 14px;
+  margin-left: -138px;
+}
+
+.invoice-total {
+  text-align: right;
+  padding: 10px;
+}
+
+.invoice-items th:nth-child(2),
+.invoice-items td:nth-child(2),
+.bill-items th:nth-child(2),
+.bill-items td:nth-child(2) {
+  width: 40%; /* Adjust width for Item Name */
+}
+
+.invoice-items th:nth-child(3),
+.invoice-items td:nth-child(3),
+.bill-items th:nth-child(3),
+.bill-items td:nth-child(3) {
+  width: 15%; /* Adjust width for Price */
+}
+
+.invoice-items th:nth-child(4),
+.invoice-items td:nth-child(4),
+.bill-items th:nth-child(4),
+.bill-items td:nth-child(4) {
+  width: 15%; /* Adjust width for Quantity */
+}
+
+.invoice-items th:nth-child(5),
+.invoice-items td:nth-child(5),
+.bill-items th:nth-child(5),
+.bill-items td:nth-child(5) {
+  width: 20%; /* Adjust width for Total */
+}
+
+.invoice-total,
+.bill-total {
+  text-align: right;
+  padding: 10px; /* Add padding for better spacing */
+}
+
+.back-button {
+  margin-bottom: 10px;
+  margin-left: 20px; /* Align the "Back" button to the left */
+}
+
+.view {
+  height: 37px;
+  align-items: left;
+  margin-top: 31px;
+  width: 98px;
+  margin-bottom: -10px;
+}
+
+/* Media query for desktop */
+@media screen and (max-width: 480px) {
+  .invoice-container, .bill-container {
+    margin: 8px auto;
+    width: 340px;
+    height: 433mm;
+    padding: 0px;
+    margin-left: 5px;
+    border: 1px solid #ccc;
+    font-size: 11px;
+    font-family: Arial, sans-serif;
+}
+
+.invoice-extras {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.invoice-extras table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.invoice-extras td {
+  padding: 10px;
+  vertical-align: middle;
+}
+
+.invoice-extras label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.invoice-extras input[type="number"] {
+  width: 150px;
+  padding: 0px;
+  font-size: 14px;
+  margin-left: -138px;
+}
+
+.invoice-total {
+  text-align: right;
+  padding: 10px;
+}
+
+
+.invoice-header input[type='date'], .bill-header input[type='date'] {
+  margin-left: 152px;
+  margin-top: 0px;
+}
+
+
+  .invoice-header,
+  .bill-header {
+    flex-direction: column; /* Stack elements vertically */
+  }
+  .invoice-header img, .bill-header img {
+    margin-bottom: -25px;
+    margin-top: 29px;
+    margin-left: -204px;
+}
+.input12 {
+  width: 44px;
+  border: 1px solid #000;
+
+}
+
+.table1{
+  padding: 10px;
+}
+
+  .invoice-header-text,
+  .bill-header-text {
+    margin-left: 67px;
+    margin-top: -59px;
+  }
+  .heading {
+    font-size: small;
+    margin-left: 10px;
+}
+
+  .invoice-logo, .bill-logo {
+    width: 61px;
+    margin-right: 62px;
+}
+  .input-wrapper > div {
+    margin-bottom: 20px; /* Adjust as needed for spacing between label-input pairs */
+}
+
+.custom-label {
+  display: inline-block;
+  width: 100px;
+  margin-left: 12px;
+  margin-bottom: 8px;
+  margin-top: 10px;
+}
+
+.custom-label1 {
+  display: inline-block;
+  width: 100px;
+  margin-left: 12px;
+  margin-bottom: 8px;
+  margin-top: 10px;
+  font-size: 10px;
+}
+.custom-input1, .custom-input3 {
+  width: 187px;
+  border: 2px solid #000;
+}
+
+
+  }
+
