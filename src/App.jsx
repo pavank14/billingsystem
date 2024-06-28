@@ -35,7 +35,7 @@ const [discount, setDiscount] = useState(0);
         setItems([
           { id: 1, name: 'मंगल कार्यालय\n1. एयर कूलिंग हॉल\n2. वर-वधू रूम अँड अटॅच बाथरूम\n3. व्ही. आय. पी डायनिंग हॉल\n4. दोन अटॅच टॉयलेट & बाथरूम\n5. दोन सध्या रूम', price: 20000, quantity: 0 },
           { id: 2, name: 'साऊंड सिस्टम\n1. Amplifier\n2. स्पीकर\n3. माइक', price: 2500, quantity: 0 },
-          { id: 3, name: 'साऊंड सिस्टम मिक्सर', price: 2000, quantity: 0 },
+          { id: 3, name: 'साऊंड सिस्टम मिक्सर', price: 3000, quantity: 0 },
           { id: 4, name: 'बफे टेबल', price: 100, quantity: 0 },
           { id: 5, name: 'हॅन्डेल खुर्ची', price: 10, quantity: 0 },
           { id: 6, name: 'साधी खुर्ची', price: 10, quantity: 0 },
